@@ -1,0 +1,24 @@
+# 只提交源码与文档
+config.json
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 生成产物（体积大，且可随时重建）
+images/
+audio/
+build/
+*.mp4
+*.wav
+*.jpg
+*.jpeg
+*.png
+
+# 例外：仓库里要保留的预览图/封面
+!examples/*/preview/*.jpg
+!examples/*/preview/*.png

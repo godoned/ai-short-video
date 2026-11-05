@@ -1,0 +1,25 @@
+{
+  "_说明": "复制成 config.json 后改成你自己机器的路径。config.json 已被 .gitignore 忽略，不会进仓库。",
+  "ark_api_key_file": "D:\\你的目录\\.env",
+  "image_model": "doubao-seedream-5-0-flash-260915",
+  "image_size": "1584x2816",
+
+  "tts_root": "D:\\你的目录\\win-unpacked\\python",
+  "tts_python": "D:\\你的目录\\win-unpacked\\python\\build_venv\\python\\python.exe",
+  "tts_voice": "参考音色.mp3",
+  "tts_ascii_link": "",
+  "tts_ascii_root": "",
+
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "overlap": 0.35,
+  "subtitle_font": "Microsoft YaHei",
+  "subtitle_size": 54,
+
+  "video_crf": 19,
+  "video_preset": "medium",
+  "audio_bitrate": "192k",
+  "loudness_lufs": -17,
+  "loudness_tp": -2.0
+}
